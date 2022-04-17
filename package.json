@@ -1,0 +1,25 @@
+{
+  "name": "akamon-polygon-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "4.3.3",
+    "@openzeppelin/contracts-upgradeable": "4.3.3",
+    "@openzeppelin/truffle-upgrades": "^1.11.0",
+    "@openzeppelin/test-helpers": "0.5.15",
+    "@truffle/hdwallet-provider": "1.7.0"
+  },
+  "devDependencies": {
+    "sol-merger": "^3.1.0",
+    "truffle-flattener": "git+https://github.com/jplew/truffle-flattener.git"
+  }
+}
